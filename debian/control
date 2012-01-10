@@ -1,0 +1,15 @@
+Source: gen-smtp
+Section: unknown
+Priority: extra
+Maintainer: Dmitriy Budashny <dmitriy.budashny@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), git, erlang-base
+Standards-Version: 3.9.2
+Homepage: https://github.com/Vagabond/gen_smtp
+#Vcs-Git: git://git.debian.org/collab-maint/gen_smtp.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/gen_smtp.git;a=summary
+
+Package: gen-smtp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A generic Erlang SMTP server and client
+ A generic Erlang SMTP server and client that can be extended via callback modules
